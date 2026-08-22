@@ -1,1 +1,10 @@
-/* Add CSS Styling */
+/* Add CSS Styling (These are chained{.class.class}, not grouped{.class,.class}*/
+.avatar.proportioned{
+    height: auto;
+    width: 300px;
+}
+
+.avatar.distorted{
+    width: 200px;
+    height:400px;
+}
