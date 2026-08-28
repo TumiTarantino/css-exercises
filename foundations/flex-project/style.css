@@ -1,0 +1,65 @@
+@import url('https://googleapis.com');/*Used for roboto font */
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+.header,
+.first-container{
+    background-color: #1F2937;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.header{
+    justify-content: space-around;
+}
+.first-container{
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.image-placeholder{
+    color:#E5E7EB;
+    background-color: grey;
+    padding: 50px;
+}
+.header-links ul{
+    display: flex;
+    gap: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+.header-logo,
+.awesome-header{
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.header-logo{
+    font-size: 24px;
+}
+.awesome-header{
+    font-size: 48px;
+}
+.awesome-text,
+a{
+    color: #E5E7EB;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 16px;
+    border-radius: 8px;
+    border:0;
+    font-weight: 600;
+}
