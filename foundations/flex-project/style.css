@@ -6,20 +6,25 @@ body{
     font-family: 'Roboto', sans-serif;
     margin:0;
 }
-
-.header,
-.first-container{
-    background-color: #1F2937;
+.body-container{
+    flex: 1;
     display: flex;
-    /* justify-content: space-around; */
-    align-items: center;
+    flex-direction: column;
 }
 .header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+.header-banner{
+    display: flex;
     justify-content: space-around;
 }
-.first-container{
-    padding: 10px;
+.header-main{
+    display: flex;
     justify-content: space-around;
+    align-items: center;
+    gap: 16px;
 }
 
 .image-placeholder{
@@ -62,4 +67,74 @@ a{
     border-radius: 8px;
     border:0;
     font-weight: 600;
+}
+
+/* Second container */
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-cards-container{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.info-card{
+    border:2px solid #3882F6;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+}
+
+.second-container p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+/* Third container */
+.third-container{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thor-quote{
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: medium;
+    font-style: normal;
+    color: #1F2937;
+}
+
+/* Fourth container */
+.fourth-container{
+    display: flex;
+    gap: 16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 16px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+}
+.sign-up-button.two{
+    border: 2px solid #F9FAF8;
+}
+
+/* Footer*/
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
 }
