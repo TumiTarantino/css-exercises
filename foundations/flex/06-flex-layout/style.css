@@ -16,6 +16,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /* Edits */
+  padding: 10px;
 }
 
 input {
@@ -23,4 +26,44 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+
+  /* Edits */
+  margin: 16px;
+}
+/* Starrting, legoooo */
+body{
+  display: flex;
+  flex-direction: column;
+}
+.header,
+.footer{
+  display: flex;
+  justify-content:space-between;
+  /* bIT OF A stop gap, until i find out how to separate them properly */
+  padding-right: 10px;
+}
+
+.footer{
+  background-color: #eee;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+a{
+  color:grey;
+  text-decoration: none;
 }
