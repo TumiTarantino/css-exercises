@@ -15,16 +15,19 @@ body{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 .header-banner{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 .header-main{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 16px;
+    width: 100%;
 }
 
 .image-placeholder{
@@ -79,13 +82,28 @@ a{
 .info-cards-container{
     display: flex;
     /* flex-direction: column; */
+    width:100%;
+    max-width: 600px;
+    gap: 20px;
 }
 
+.info-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    text-align: center;
+    margin: 16px;
+    color: grey;
+}
 .card{
     border:2px solid #3882F6;
     border-radius: 8px;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+
 }
 
 .second-container p{
@@ -105,6 +123,13 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
+}
+
+.third-text-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
 }
 .thor-quote{
     align-self: flex-end;
